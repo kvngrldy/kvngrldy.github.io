@@ -3,9 +3,9 @@
   let skor = document.querySelector('.skor');
   let diglets = document.querySelectorAll('.object');
 
-  let score = 0;
-  let spawnAkhir;
-  let waktuHabis = false;
+  let score = 0;    //variabel hitung score
+  let spawnAkhir;   //variabel untuk menghindari duplikat spawn
+  let waktuHabis = false;   //variabel untuk membatasi waktu
   
   //mengacak durasi muncul
   function waktuAcak(min, max) {
